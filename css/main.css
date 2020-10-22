@@ -87,11 +87,27 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body, ul, li, h1, h2, a{
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+body{
+     background-color: #ffffff;
+     margin: 0px;
+     overflow-x: hidden;
+}
+.maynard_headline{
+     width: 100vw;
+     height: 90px;
+     background-color: #000000;
+}
+.maynard_headline h1{
+     font-size: 45px;
+     color: #ffffff;
+     text-align: center;
+}
 
-
-
-
-   
 
 /* ==========================================================================
    Helper classes
@@ -266,4 +282,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
