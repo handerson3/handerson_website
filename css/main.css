@@ -10,6 +10,7 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+   @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,700;1,500&display=swap');
 
 html {
   color: #222;
@@ -90,23 +91,113 @@ textarea {
 body, ul, li, h1, h2, a{
   padding: 0;
   margin: 0;
-  font-family: Arial;
+  font-family: 'Asap', sans-serif;
+  overflow-x: hidden;
 }
+
 body{
      background-color: #ffffff;
      margin: 0px;
      overflow-x: hidden;
 }
-.maynard_headline{
+header{
      width: 100vw;
      height: 90px;
      background-color: #000000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
 }
-.maynard_headline h1{
-     font-size: 45px;
-     color: #ffffff;
-     text-align: center;
+header h1{
+  font-size: 45px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
 }
+
+/* Home Hero Section */
+
+#homepagehero{
+  background-image: url('../img/maynard_home_hero.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Sets up hero sections for other pages */
+.page_hero_sections{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* lets you change the background image for each page */
+#abouthero{
+  background-image: url('../img/maynard_home_hero.jpg');
+}
+
+#tourhero{
+  background-image: url('../img/maynard_home_hero.jpg');
+}
+
+#toolhero{
+  background-image: url('../img/maynard_home_hero.jpg');
+}
+
+#pusciferhero{
+  background-image: url('../img/maynard_home_hero.jpg');
+}
+
+#apchero{
+  background-image: url('../img/maynard_home_hero.jpg');
+}
+
+/* 
+sets up main content areas on pages
+angled_content is for the about and tour pages with the arrow angle at the bottom.
+band_content is for the band pages that have no arrow angel at the bottom.
+Both share base styles.
+*/
+
+.angled_content,
+.band_content{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px;
+  background-color: #ffffff;
+}
+
+
+
+/* Footer Styling */
+
+footer{
+  height: 5%;
+  width: 100vw;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p{
+  color: #fff;
+  font-size: 20px;
+}
+
+
+
+
 
 
 /* ==========================================================================
