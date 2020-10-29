@@ -88,7 +88,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body, ul, li, h1, h2, a{
+body, ul, li, h1, h2, h3, h4, a{
   padding: 0;
   margin: 0;
   font-family: 'Asap', sans-serif;
@@ -116,10 +116,42 @@ header h1{
   font-weight: 400;
 }
 
+/* Nav Styles */
+
+#tool_nav{
+  width: 300px;
+  height: 150px;
+  background-image: url('../img/tool_icon_img.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 3px solid #858585;
+  text-align: center;
+}
+#apc_nav{
+  width: 300px;
+  height: 150px;
+  background-image: url('../img/apc_icon_img.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 3px solid #858585;
+  text-align: center;
+}
+#puscifer_nav{
+  width: 300px;
+  height: 150px;
+  background-image: url('../img/pucifer_icon_img.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 3px solid #858585;
+  text-align: center;
+}
 /* Home Hero Section */
 
 #homepagehero{
-  background-image: url('../img/maynard_home_hero.jpg');
+  background-image: url('../img/maynard_home_banner.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -140,26 +172,26 @@ header h1{
 
 /* lets you change the background image for each page */
 #abouthero{
-  background-image: url('../img/maynard_home_hero.jpg');
+  background-image: url('../img/maynard_about_banner.jpg');
 }
 
 #tourhero{
-  background-image: url('../img/maynard_home_hero.jpg');
+  background-image: url('../img/maynard_tour_banner.jpg');
 }
 
 #toolhero{
-  background-image: url('../img/maynard_home_hero.jpg');
+  background-image: url('../img/tool_page_banner.jpg');
 }
 
 #pusciferhero{
-  background-image: url('../img/maynard_home_hero.jpg');
+  background-image: url('../img/puscifer_page_banner.jpg');
 }
 
 #apchero{
-  background-image: url('../img/maynard_home_hero.jpg');
+  background-image: url('../img/apc_page_banner.jpg');
 }
 
-/* 
+/*
 sets up main content areas on pages
 angled_content is for the about and tour pages with the arrow angle at the bottom.
 band_content is for the band pages that have no arrow angel at the bottom.
