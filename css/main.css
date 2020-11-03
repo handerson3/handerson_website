@@ -191,6 +191,39 @@ header h1{
   background-image: url('../img/apc_page_banner.jpg');
 }
 
+/* Sets up Band name and Description */
+
+.bandname{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px;
+  background-color: rgba(0,0,0,.3);
+}
+
+.bandname h1{
+  font-size: 40px;
+  color: #fff;
+  margin: 5px;
+}
+
+.band_description{
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px;
+  background-color: #fff;
+  padding: 2%;
+}
+
+.band_description img{
+  margin: 15px;
+}
+
 /*
 sets up main content areas on pages
 angled_content is for the about and tour pages with the arrow angle at the bottom.
@@ -206,7 +239,17 @@ Both share base styles.
   align-items: center;
   flex-direction: column;
   margin: 0px;
-  background-color: #ffffff;
+  position: relative;
+}
+
+/* Shifts the content above .band_content */
+.shiftcontent{
+  position: relative;
+  bottom: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 
@@ -214,7 +257,7 @@ Both share base styles.
 /* Footer Styling */
 
 footer{
-  height: 5%;
+  height: 200px;
   width: 100vw;
   background-color: #000;
   display: flex;
