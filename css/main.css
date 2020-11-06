@@ -226,7 +226,7 @@ header h1{
 
 .right_gridbox img{
  width: 60%;
- margin: 5% 0%;  
+ margin: 5% 0%;
 }
 
 .bioheader{
@@ -483,6 +483,15 @@ footer p{
   /* Style adjustments for high resolution devices */
 }
 
+/* Tablet */
+@@media screen and (max-width: 768px){
+  
+}
+
+/* Mobile */
+@@media screen and (max-width: 320px) {
+
+}
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
