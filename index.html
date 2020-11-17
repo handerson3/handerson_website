@@ -9,9 +9,17 @@
 
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <script>
+    $(document).ready(function(){
+      $("#opennav").click(function(){
+        $(".band_nav").toggle();
+      });
+    });
+    </script>
+
 </head>
 
 <body>
@@ -31,24 +39,42 @@
       </div>
     </header>
 
+    <button id="opennav">
+      Open
+    </button>
+
+    <nav class="band_nav">
+
+      <ul>
+        <li id="tool_nav">
+          <a href="tool.html">
+            Tool
+          </a>
+        
+        </li>
+        <li id="apc_nav">
+          <a href="aperfectcircle.html">
+           A Perfect Circle
+          </a>
+        </li>
+  
+        <li id="puscifer_nav">
+          <a href="puscifer.html">
+            Pusicifer
+          </a>
+        </li>
+      </ul>
+    </nav>
   </section>
 
 
-  <nav class="band_nav">
-    <ul>
-      <li id="tool_nav"><a href="#">Tool</a></li>
-      <li id="apc_nav"><a href="#">A Perfect Circle</a></li>
-      <li id="puscifer_nav"><a href="#">Puscifer</a></li>
-    </ul>
-  </nav>
-
-
-
+ 
 
 
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/main.js"></script>
+
 
 </body>
 

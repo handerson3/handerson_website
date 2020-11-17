@@ -322,6 +322,67 @@ header h1{
   margin: 5%;
 }
 
+.band_nav{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000;
+  display: none;
+  position: absolute;
+  bottom: 0px;
+  padding-bottom: 2%;
+}
+
+.band_nav ul{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.band_nav ul li{
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.band_nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#opennav {
+  position: absolute;
+  bottom: 20px;
+  right: 48%;
+  z-index: 10;
+}
+
+#tool_nav{
+  background-image: url('../img/tool_icon_img.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#apc_nav{
+  background-image: url('../img/apc_icon_img.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#puscifer_nav{
+  background-image: url('../img/puscifer_icon_img.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /*
 sets up main content areas on pages
 angled_content is for the about and tour pages with the arrow angle at the bottom.
