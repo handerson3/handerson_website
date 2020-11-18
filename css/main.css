@@ -102,6 +102,7 @@ body{
 }
 header{
      width: 100vw;
+     opacity:
      background-color: #000000;
 }
 
@@ -545,12 +546,74 @@ footer p{
 }
 
 /* Tablet */
-@@media screen and (max-width: 768px){
-  
+@media screen and (max-width: 768px){
+
+  header h1{
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    z-index: 10;
+  }
+
 }
 
 /* Mobile */
-@@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
+
+  header h1{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    z-index: 10;
+  }
+
+  header{
+       width: 100vw;
+       height:
+       background-color: #000000;
+  }
+
+  #homepagehero{
+    background-image: url('../img/maynard_home_banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+
+  #tool_nav{
+    width: 300px;
+    height: 150px;
+    background-image: url('../img/tool_icon_img.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 3px solid #858585;
+    text-align: center;
+  }
+  #apc_nav{
+    width: 300px;
+    height: 150px;
+    background-image: url('../img/apc_icon_img.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 3px solid #858585;
+    text-align: center;
+  }
+  #puscifer_nav{
+    width: 300px;
+    height: 150px;
+    background-image: url('../img/pucifer_icon_img.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 3px solid #858585;
+    text-align: center;
+  }
 
 }
 /* ==========================================================================
