@@ -102,8 +102,10 @@ body{
 }
 header{
      width: 100vw;
-     opacity:
+     opacity: .8;
      background-color: #000000;
+     position: fixed;
+     z-index: 10;
 }
 
 header h1{
@@ -284,6 +286,11 @@ header h1{
   text-decoration: none;
 }
 
+#pushme{
+  text-align: center; 
+  margin-left: 30%;
+}
+
 
 
 /* Sets up Band name and Description */
@@ -446,6 +453,37 @@ footer{
 footer p{
   color: #fff;
   font-size: 20px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px){
+
+  .gridbox {
+    flex-direction: column;
+}
+
+.left_gridbox,
+.right_gridbox{
+  width: 85%;
+}
+
+.right_gridbox img{
+  width: 100%;
+}
+
+#pushme{
+  text-align: center; 
+  margin-left: 0%;
+}
+
+ 
+
+}
+
+
+@media screen and (max-width: 320px){
+
 }
 
 

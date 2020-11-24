@@ -20,15 +20,15 @@
     <header>
       <button type="button" class="collapsible">
       <span class="moveme">&#9776;</span>
-      <h1>Maynard James Keenan Music</h1>
+      <div><h1>Maynard James Keenan Music</h1></div>
     </button>
-    <div class="content">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="tour.html">Tour</a></li>
-      </ul>
-    </div>
+      <div class="content">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="tour.html">Tour</a></li>
+        </ul>
+      </div>
     </header>
 
   </section>
@@ -37,7 +37,7 @@
   <section class="tour_content" >
 
     <div class="gridbox">
-    <div class="left_gridbox" style="text-align: center; margin-left: 30%;">
+    <div class="left_gridbox" id="pushme">
       <h3>Maynard James Keenan</h3>
 
     <h2>Tour Schedule</h2>
@@ -119,5 +119,7 @@
         <p>Something or another...</p>
       </footer>
 
+      <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+      <script src="js/main.js"></script>
 
 </html>
